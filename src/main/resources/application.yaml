@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/usermgt
+    username: root
+    password: 197714191
+  jpa:
+    hibernate:
+      ddl-auto: update # You can set this to create-drop, create, update, or none based on your requirements
+    show-sql: true # Set to true if you want to see SQL queries in the console
+  h2:
+    console:
+      enabled: false # Disable H2 console if you're not using it
